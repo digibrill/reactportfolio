@@ -1,13 +1,375 @@
-body {
+
+/* Resets and variables*/
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  --darkGrey: #333;
+  --accentColor: #C0D9F1;
+  --white: #fff;
+  --commonpx: 20px;
 }
 
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* Global fonts */
+
+a, li, p, h1, h2, h3, h4, h5, h6, div {
+  font-family: "Open Sans", sans-serif;
+}
+.floatRightImg{
+  margin:10px 10px 30px;
+  clear:both;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.whiteTextLink{color:#fff;}
+
+/* Start main styles */
+
+/* Header and logo box */
+
+header {
+  width: 100%;
+  background-color: var(--darkGrey);
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
+
+#logobox {
+  width: 60%;
+}
+
+#logobox img {
+  float: left;
+}
+
+#logobox h1 {
+  font-weight: normal;
+  font-size: var(--commonpx);
+  margin: var(--commonpx) 0 0;
+  display: block;
+  color: var(--white);
+}
+
+#logobox h2 {
+  font-weight: normal;
+  font-size: 16px;
+  display: block;
+  color: var(--white);
+}
+
+/*Top nav bar */
+
+#topnav {
+  padding: 3px 10px 0;
+  width: 40%;
+  display: flex;
+}
+
+#topnav ul {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content:flex-end;
+}
+
+#topnav ul li {
+  display: inline-block;
+  margin-left:10px;
+}
+
+#topnav ul li a {
+  color: var(--white);
+}
+
+#sdut_samples, #contract_samples{
+  display:none;
+}
+
+
+/* Hero section */
+
+#hero {
+  background-image: url(./images/bkgd.jpg);
+  background-position: bottom;
+  width: 100%;
+  text-align: left;
+  /*display: flex;*/
+}
+.portfolioDiv{
+  width:49%;
+  display:inline-block;
+}
+.portfolioDivValign{
+  vertical-align:top;
+  width:49%;
+  display:inline-block;
+}
+.intrographics{
+  float:left;
+  clear:left;
+  margin-right: 30px;
+}
+.card{
+  width: 175px;
+  font-size: 12px;
+}
+.card--image{
+  width: 100%;
+  border-radius: 9px;
+}
+.card--text{
+  font-size: 11px;
+}
+.card--title{
+  font-size: 11px;
+  font-weight: bold;
+}
+.card--tech{
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+}
+.card--details{
+  font-size: 11px;
+}
+
+
+/* Begin main content */
+
+#main {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  /*display: flex;*/
+}
+
+
+/* Striped content sections */
+
+.pagestripes {
+  /*display: flex;*/
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* About Me stripe */
+
+.pagestripes:nth-of-type(1) {
+  background-color: var(--white);
+}
+
+.pagestripes:nth-of-type(1) .stripesbody {
+  padding: var(--commonpx);
+}
+
+.pagestripes:nth-of-type(1) h3 {
+  color: #325078;
+}
+
+.pagestripes:nth-of-type(1) p {
+  width: 100%;
+  display: block;
+  margin: var(--commonpx) 0 var(--commonpx);
+  color: white;
+}
+
+/* Work stripe */
+
+.pagestripes:nth-of-type(2) {
+  background-color: #325078;
+  color: var(--white);
+}
+
+.pagestripes:nth-of-type(2) .clearg {
+  clear:both;
+  font-weight: normal;
+}
+
+.pagestripes:nth-of-type(2) h4.clearg:hover {
+  color: var(--white);
+  background-color: var(--darkGrey);
+  cursor:pointer;
+}
+.pagestripes:nth-of-type(2) form {
+  padding:0;
+  background:#333;
+}
+.pagestripes:nth-of-type(2) .contactformdiv{
+  padding:10px;
+  background-color: #333;
+  float:right;
+  margin-left:20px;
+  height:250px;
+}
+
+/* Portfolio subsections */
+
+.portfoliosection {
+  font-size: 10pt;
+  background-color: var(--darkGrey);
+  border: 1px dotted var(--white);
+  color: var(--white);
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 7px 5px 7px;
+  text-align: center;
+  /*display: none;*/
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  height:100%;
+}
+.portfoliosection img{
+  clear:both;
+}
+
+.portfoliosection h4 {
+  font-size:15pt;
+  color: var(--darkGrey);
+  text-align: left;
+  width: 100%;
+  border: 1px solid var(--white);
+  margin: 30px auto var(--commonpx);
+  padding: 5px 7px 5px 7px;
+} 
+
+.portfoliosection h5 {
+  font-size: 11pt;
+  color: var(--accentColor);
+  clear: both;
+  margin: 20px 0 15px;
+  width: 100%;
+}
+
+.portfoliosection p {
+  font-size: 11pt;
+  color: var(--white);
+  clear: both;
+  margin: 20px 0 15px;
+  width: 100%;
+}
+
+.portfoliosection a {
+  color: var(--white);
+}
+
+/*.portfoliosection img{
+  clear:both;
+  margin: 0 5px var(--commonpx);
+  width: 100%;
+  max-width: 410px;
+  height:auto;
+}
+
+.portfoliosection img.wide {
+  width:100%;
+  height:auto;
+  max-width: 800px;
+}
+
+.portfoliosection img.narrow {
+  width:100%;
+  height:auto;
+  max-width: 354px;
+}*/
+
+/* Contact Me stripe */
+
+.pagestripes:nth-of-type(3) {
+  color: var(--white);
+  background-color: var(--darkGrey);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.stripesheader {
+  text-align: left;
+  /*display: flex;
+  flex-wrap: nowrap;*/
+}
+
+.stripesheader h3 {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: normal;
+}
+
+.stripesbody {
+  width: 100%;
+}
+
+.stripesbody h4 {
+  font-size: 15pt;
+  color: var(--accentColor);
+  text-align: left;
+  width: 100%;
+  border: 1px solid var(--white);
+  margin: 30px auto var(--commonpx);
+  padding: 5px 7px 5px 7px;
+}
+#aboutme .stripesbody p{
+  padding:15px;
+}
+
+/* Footer */
+
+footer{
+  width:  100%;
+  margin: var(--commonpx) auto 0;
+  color:#fff;
+  text-align:center;
+  background-color: #325078;
+  padding-top:10px;
+}
+footer nav #navtitle{
+  color: #fff;
+  height:50px;
+  display:inline-block;
+  padding-right: 20px;
+}
+footer nav ul,footer nav ul li{
+  display:inline-block;
+  list-style-type: none;
+  padding-right:20px;
+}
+footer nav ul li a{
+  color: #fff;
+}
+footer div h3{
+  float:left;
+  padding-top:13px;
+}
+footer a{
+  color:#fff;
+}
+footer p {
+  text-align: center;
+  color:  white;
+}
+
+@media screen and (max-width:768px) {
+  .stripesheader {
+      display: block;
+  }
+  .stripesbody {
+      width: 100%;
+      margin:0 10px 0;
+  }
+  #bottomnav ul {
+      float: none;
+      margin-top: 10px;
+      text-align: center;
+  }
 }
