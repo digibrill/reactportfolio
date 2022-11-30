@@ -1,5 +1,6 @@
 
 import LogoBug from '../images/logobug.png';
+//<a href="#home" onClick={() => handlePageChange("Home")} className={currentPage==='About' ? 'nav-link active' : 'nav-link'}>
 
 export default function Header() {
     return(
