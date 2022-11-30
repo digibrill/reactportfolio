@@ -1,6 +1,7 @@
 
 import LogoBug from '../images/logobug.png';
 //<a href="#home" onClick={() => handlePageChange("Home")} className={currentPage==='About' ? 'nav-link active' : 'nav-link'}>
+import resume from "../pdfs/resume.pdf";
 
 export default function Header() {
     return(
@@ -26,7 +27,7 @@ export default function Header() {
                     <a href="#contactme">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                <a href={resume}>Resume</a>
                 </li>
             </ul>
         </nav>

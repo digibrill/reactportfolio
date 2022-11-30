@@ -183,6 +183,7 @@ header {
   display: block;
   margin: var(--commonpx) 0 var(--commonpx);
   color: white;
+  text-align: left;
 }
 
 /* Work stripe */
@@ -233,6 +234,7 @@ header {
 }
 .portfoliosection img{
   clear:both;
+  vertical-align: top;
 }
 
 .portfoliosection h4 {
@@ -272,13 +274,13 @@ header {
   max-width: 410px;
   height:auto;
 }
-
+*/
 .portfoliosection img.wide {
   width:100%;
   height:auto;
-  max-width: 800px;
+  max-width: 660px;
 }
-
+/*
 .portfoliosection img.narrow {
   width:100%;
   height:auto;
@@ -321,6 +323,36 @@ header {
 }
 #aboutme .stripesbody p{
   padding:15px;
+  text-align: left;
+}
+#resume__skills p{
+  text-align: center;
+}
+#loading_section{
+  height: 502px;
+  font-size:16px;
+  text-align: left;
+}
+#loading_section img{
+  float:left;
+  max-width:254px;
+  width:50%;
+  margin-right:10px;
+}
+#loading_section p{
+  display:inline-block;
+  max-width:354px;
+  width:50%;
+  font-size: 11pt;
+  color: var(--white);
+}
+#loading_section h5 {
+  font-size: 11pt;
+  color: var(--accentColor);
+  clear: both;
+  margin: 20px 0 15px;
+  width: 100%;
+  text-align:center;
 }
 
 /* Footer */

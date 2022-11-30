@@ -1,4 +1,10 @@
 import Touchstone from '../images/landingpage-touchstone.png';
+import eBook from "../pdfs/the_road_to_cyber_strength.pdf";
+import Airdndhome from "../images/airdnd-home.png";
+import Airdndaddchar from "../images/airdnd-addchar.png";
+import Airdndaddmeetup from "../images/airdnd-addmeetup.png";
+import Airdndchar from "../images/airdnd-char.png";
+
 import WeatherChecker from "../images/WeatherChecker.png";
 import WorkdayScheduler from "../images/WorkdayScheduler.png";
 import CodingQuiz from "../images/CodingQuiz.png"
@@ -8,7 +14,6 @@ import ReadmeGenerator from "../images/ReadmeGenerator.png"
 import ManageScreen from "../images/managescreencap.png";
 import LoginScreen from "../images/loginscreencap.png";
 import ResultsScreen from "../images/resultsscreencap.png";
-import eBook from "../pdfs/the_road_to_cyber_strength.pdf";
 import eBookImg from "../images/cyberstrength-ebook.png";
 import xifinCard from "../images/xifingreeting-edit.png";
 import contentalternate1 from "../images/xifin_alt_layout4.png";
@@ -28,92 +33,68 @@ export default function Main() {
             </div>
             <section className="pagestripes" id="work">
                 <div id="loading_section" className="portfoliosection">
-                    <div className='portfolioDivValign'>
-                        <h5>Cyberstrength eBook</h5>
-                        <p>My crowning achievement right now. Click for a look at my cyber creds.</p>
-                        <a href={eBook} target="_blank"><img src={eBookImg} alt="Cyberstrength eBook" width="200" /></a>
-                    </div>
-                    <div className="portfolioDivValign">
-                        <h5>White paper</h5>
-                        <p>Touchstone Services in the U.K.</p>
-                        <img className="wide" src={Touchstone} alt="Touchstone Landing Page" width="300" />
-                    </div>
+                    <h5>Cyberstrength eBook</h5>
+                        <a href={eBook} target="_blank"><img src={eBookImg} alt="Cyberstrength eBook" width="300" /></a><br />
+                        My crowning achievement right now. This brings together my cyber analyst and writing skills.<br/><br />
+                            I wrote the content, targeted at small-to-medium businesses and organizations, and chose the images.
+                            My editor was the CEO of Tech Kahunas, for which I am currently working on SEO and marketing for the company site.
+                            We are bringing a marketing expert to advise.<br /><br />
+                            Click for a look at my cyber creds.
+                        {/*<h5>Touchstone White Paper (right)</h5>
+                        My uncle's company in the U.K. - not yet available&nbsp;&nbsp;
+                        <img className="wide" src={Touchstone} alt="Touchstone Landing Page" width="300" />*/}
                 </div>
                 <div className="portfoliosection">
-                    <div className="portfolioDivValign">
-                        <h5>Weather Checker</h5>
-                        Express, Node<br />
-                        REPO: <a href="https://github.com/digibrill/WeatherChecker-challenge6">https://github.com/digibrill/WeatherChecker-challenge6</a><br/>
-                        <a href="https://digibrill.github.io/WeatherChecker-challenge6/"><img src={WeatherChecker} alt="Weather Checker" className="floatRightImg" width="500" /></a>
-                        <br/>
-                        <br/>
+                    <div>
+                        <h5>AirDnD Project</h5>
+                        React, MongoDB, Apollo/GraphQL, Express, Node<br />
+                        Home & Character Card <br/><a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndhome} alt="AirDnd Homepage" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndchar} alt="AirDnD Character" className="narrow" width="300" /></a>
                     </div>
-                    <div className="portfolioDivValign">
-                        <h5>Third-Party API Work Day Scheduler</h5>
-                        Local storage<br/>
-                        REPO: <a href="https://github.com/digibrill/WorkDayScheduler-challenge5">https://github.com/digibrill/WorkDayScheduler-challenge5</a><br/>
-                        <a href="https://digibrill.github.io/WorkDayScheduler-challenge5/"><img src={WorkdayScheduler} alt="Work Day Scheduler" className="floatRightImg" width="500" /></a>
-                        <br/>
+                    <div><br/>
+                        Add Character & Add Meetup<br />
+                        <a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndaddchar} alt="AirDnD Add Character" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndaddmeetup} alt="AirDnD Add Meetup" className="narrow" width="300" /></a>
                     </div>
-                    <div className="portfolioDivValign">
-                        <h5>Web APIs Coding Quiz</h5>
-                        Node<br/>
-                        REPO: <a href="https://github.com/digibrill/CodingQuiz-challenge4">https://github.com/digibrill/CodingQuiz-challenge4</a>
-                        <a href="https://digibrill.github.io/CodingQuiz-challenge4/"><img src={CodingQuiz} alt="Coding Quiz" className="floatRightImg" width="500" /></a>
-                        <br/><br/><br/>
+                    <div>
+                        <h5>Weather Checker & Third-Party API Work Day Scheduler</h5>
+                        Express, Node, localstorage<br />
+                        <a href="https://digibrill.github.io/WeatherChecker-challenge6/"><img src={WeatherChecker} alt="Weather Checker" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://digibrill.github.io/WorkDayScheduler-challenge5/"><img src={WorkdayScheduler} alt="Work Day Scheduler" className="narrow" width="300" /></a>
                     </div>
-                    <div className="portfolioDivValign">
-                        <h5>JavaScript Password Generator</h5>
-                        JS.<br/>
-                        REPO: <a href="https://github.com/digibrill/JavascriptPasswordGenerator-challenge3">https://github.com/digibrill/JavascriptPasswordGenerator-challenge3</a><br/>
-                        <a href="https://digibrill.github.io/JavascriptPasswordGenerator-challenge3/"><img src={PasswordGenerator} alt="Password Generator" className="floatRightImg" width="500" /></a>
-                        <br/>
+                    <div>
+                        <h5>Web APIs Coding Quiz & JavaScript Password Generator</h5>
+                        Node/Javascript<br/>
+                        <a href="https://digibrill.github.io/CodingQuiz-challenge4/"><img src={CodingQuiz} alt="Coding Quiz" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://digibrill.github.io/JavascriptPasswordGenerator-challenge3/"><img src={PasswordGenerator} alt="Password Generator" className="narrow" width="300" /></a>
                     </div>
-                    <div className="portfolioDivValign">
-                        <h5>Object-Relational Mapping E-commerce Back End (VIDEO)</h5>
+                    <div>
+                        <h5>Object-Relational Mapping E-commerce Back End (VIDEO, left) & Node.js README.md Generator (VIDEO, right)</h5>
                         Sequelize, Express<br/>
-                        REPO: <a href="https://github.com/digibrill/EcommerceBackEnd-challenge13">https://github.com/digibrill/EcommerceBackEnd-challenge13</a><br/>
-                        <a href="https://drive.google.com/file/d/1O6T3F3gyxULKlVyuk__sHl-WJzF7p5xw/view"><img src={EcommerceBackend} alt="Ecommerce Backend" className="floatRightImg" width="500" /></a>
-                        <br/>
-                        <br/><br/>
-                    </div>
-                    <div className="portfolioDivValign">
-                        <h5>Node.js README.md Generator (VIDEO)</h5>
-                        Node<br/>
-                        REPO: <a href="https://github.com/digibrill/ReadMeGenerator-challenge9">https://github.com/digibrill/ReadMeGenerator-challenge9</a><br/><br/>
-                        <a href="https://drive.google.com/file/d/1Oo_JdEhNY6zicGqQYyxXlwUZIZMS9yJd/view"><img src={ReadmeGenerator} alt="Readme Generator" className="floatRightImg" width="500" /></a>
-                        <br/>
+                        <a href="https://drive.google.com/file/d/1O6T3F3gyxULKlVyuk__sHl-WJzF7p5xw/view"><img src={EcommerceBackend} alt="Ecommerce Backend" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1Oo_JdEhNY6zicGqQYyxXlwUZIZMS9yJd/view"><img src={ReadmeGenerator} alt="Readme Generator" className="narrow" width="300" /></a>
                     </div>
                     <div>
                         <h5>RegEx Tutorial</h5>
                         Did a Regex Tutorial in an README.md format text file<br />
-                        https://github.com/digibrill/RegExTutorial-challenge17/blob/main/README.md<br/>
+                        <a href="https://github.com/digibrill/RegExTutorial-challenge17/blob/main/README.md">https://github.com/digibrill/RegExTutorial-challenge17/blob/main/README.md</a><br/>
                         <br />
                     </div>
-                    <div className="portfolioDivValign">
+                    <div>
                         <h5>SwiftInv Project</h5>
-                        My part was a fully responsive front-end. (Soon to be posted.)<br/>
-                        <p>Login<br />
-                        <img src={LoginScreen} alt="SwiftInv login" className="floatRightImg" width="500" />
-                        </p>
-                    </div>
-                    <div className="portfolioDivValign">
-                        <p>Results page.<br />
-                        <img src={ResultsScreen} alt="SwiftInv Results Screen" className="floatRightImg" width="500" />
-                        </p>
-                        <p>Manage page.<br />
-                        <img src={ManageScreen} alt="SwiftInv Manage Screen" className="floatRightImg" width="500" />
-                        </p>
+                        My part was a fully responsive front-end. (currently unavailable)<br/>
+                        Login<br />
+                        <img src={LoginScreen} alt="SwiftInv login" width="300" className="narrow" /><br /><br/>
+                        
+                        Results and Manage pages.<br />
+                        <img src={ResultsScreen} alt="SwiftInv Results Screen" width="300" className="narrow" />&nbsp;&nbsp;
+                        <img src={ManageScreen} alt="SwiftInv Manage Screen" width="300" className="narrow" />
+                        
                     </div>
                 </div>
                 <div id="xifin_samples">
-                        <div className="portfoliosection">
+                    <div className="portfoliosection">
                             <h5>
                                 XIFIN Corporate Site
                             </h5>
                             <p>
                                 My position at XIFIN involved marketing processes (Salesforce, Marketo, Google Analytics), support, SEO, and Drupal administration and training. I saw the site through three versions. We eventually used the <a href="https://www.xifin.com">pre-built theme below for the current site at www.xifin.com</a>. It remains unchanged since I left. Below that are some ideas I put forward for the content page layouts. I also built a customer portal and product microsites.</p>
-                            <a href="https://www.xifin.com"><img src={xifinSite} className="wide" alt="XIFIN thumbnail" width="800" height="502" /></a>
+                            <a href="https://www.xifin.com"><img src={xifinSite} className="wide" alt="XIFIN thumbnail" width="500" /></a>
                             <h5>
                                 CONTENT page layouts
                             </h5>
@@ -126,7 +107,7 @@ export default function Main() {
                                 For our customers, the email graphic(left) led to the shakeable globe animation(was in Flash so only used internally).
                             </p>
                             <img src={xifinCard} alt="XIFIN Christmas Card email" width="370" height="303" className="narrow" /><img src={xifinGlobe} className="narrow" alt="XIFIN Christmas Card animated globe" width="400" height="426" />
-                        </div>
+                    </div>
                 </div>
                 <div id="sdut_samples">
                         <h4 className="clearg">SD Union-Tribune</h4>
@@ -226,7 +207,7 @@ export default function Main() {
                             <img src="./Assets/images/gijodesign-cap.jpg" alt="Gijo Design" width="410" height="329" /><img src="./Assets/images/jomtech-cap.gif" alt="Jombie's Tech Support" width="410" height="288" />
                         </div>
                 </div>
-                <div id="resume--skills">
+                <div id="resume__skills">
                     <h3>
                     Resume and Skills
                     </h3>
@@ -238,7 +219,7 @@ export default function Main() {
                         </p>
                     </div>
                     <div className="portfoliosection">
-                        <img src={Certifications} width="660" height="339" alt="My certifications" />
+                        <img src={Certifications} width="500" className="wide" alt="My certifications" />
                     </div>
                 </div>
             </section>
