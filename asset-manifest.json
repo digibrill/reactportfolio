@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactportfolio-challenge20/static/css/main.2f6ce3e5.css",
-    "main.js": "/reactportfolio-challenge20/static/js/main.bcbdc6d4.js",
+    "main.js": "/reactportfolio-challenge20/static/js/main.4c5567cb.js",
     "static/media/the_road_to_cyber_strength.pdf": "/reactportfolio-challenge20/static/media/the_road_to_cyber_strength.b6f45d4b194eb8135f82.pdf",
     "static/media/airdnd-home.png": "/reactportfolio-challenge20/static/media/airdnd-home.80df0ae8a04edcd9fbe0.png",
     "static/media/airdnd-addchar.png": "/reactportfolio-challenge20/static/media/airdnd-addchar.dc40771be47bd8e9f759.png",
@@ -9,7 +9,7 @@
     "static/media/bkgd.jpg": "/reactportfolio-challenge20/static/media/bkgd.ef0b8b15d72c23bb4577.jpg",
     "static/media/landingpage-touchstone.png": "/reactportfolio-challenge20/static/media/landingpage-touchstone.9f2b0200311d771c0b3f.png",
     "static/media/airdnd-addmeetup.png": "/reactportfolio-challenge20/static/media/airdnd-addmeetup.19a07918fd3e798f5e6d.png",
-    "static/media/cyberstrength-ebook.png": "/reactportfolio-challenge20/static/media/cyberstrength-ebook.6916916d367034b432fe.png",
+    "static/media/cyberstrength-ebook.png": "/reactportfolio-challenge20/static/media/cyberstrength-ebook.f0b9609939f6ab43452f.png",
     "static/media/xifingreeting-staticglobe.png": "/reactportfolio-challenge20/static/media/xifingreeting-staticglobe.761a3d190d68d360b10e.png",
     "static/media/EcommerceBackend.png": "/reactportfolio-challenge20/static/media/EcommerceBackend.ef3dc66fe8b6a84a7568.png",
     "static/media/xifin_alt_layout4.png": "/reactportfolio-challenge20/static/media/xifin_alt_layout4.ce38e6dbac454628b1c4.png",
@@ -31,10 +31,10 @@
     "static/media/logobug.png": "/reactportfolio-challenge20/static/media/logobug.e2b9ad7a7204b393328e.png",
     "index.html": "/reactportfolio-challenge20/index.html",
     "main.2f6ce3e5.css.map": "/reactportfolio-challenge20/static/css/main.2f6ce3e5.css.map",
-    "main.bcbdc6d4.js.map": "/reactportfolio-challenge20/static/js/main.bcbdc6d4.js.map"
+    "main.4c5567cb.js.map": "/reactportfolio-challenge20/static/js/main.4c5567cb.js.map"
   },
   "entrypoints": [
     "static/css/main.2f6ce3e5.css",
-    "static/js/main.bcbdc6d4.js"
+    "static/js/main.4c5567cb.js"
   ]
 }
