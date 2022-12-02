@@ -1,7 +1,7 @@
 
 import LogoBug from '../images/logobug.png';
 //<a href="#home" onClick={() => handlePageChange("Home")} className={currentPage==='About' ? 'nav-link active' : 'nav-link'}>
-import resume from "../pdfs/resume.pdf";
+//import resume from "../pdfs/resume.pdf";
 
 export default function Header() {
     return(

@@ -20,7 +20,7 @@ import contentalternate2 from "../images/xifin_alt_layout-icc2.png";
 import xifinSite from "../images/xifin.jpg";
 import xifinGlobe from "../images/xifingreeting-staticglobe.png";
 import Certifications from "../images/portfolios-cert.png";
-import resume from "../pdfs/resume.pdf";
+//import resume from "../pdfs/resume.pdf";
 
 export default function Main() {
     return(
