@@ -4,7 +4,6 @@ import Airdndhome from "../images/airdnd-home.png";
 import Airdndaddchar from "../images/airdnd-addchar.png";
 import Airdndaddmeetup from "../images/airdnd-addmeetup.png";
 import Airdndchar from "../images/airdnd-char.png";
-
 import WeatherChecker from "../images/WeatherChecker.png";
 import WorkdayScheduler from "../images/WorkdayScheduler.png";
 import CodingQuiz from "../images/CodingQuiz.png"
@@ -37,8 +36,7 @@ export default function Main() {
                         <a href={eBook} target="_blank"><img src={eBookImg} alt="Cyberstrength eBook" width="300" /></a><br />
                         My crowning achievement right now. This brings together my cyber analyst and writing skills.<br/><br />
                             I wrote the content, targeted at small-to-medium businesses and organizations, and chose the images.
-                            My editor was the CEO of Tech Kahunas, for which I am currently working on SEO and marketing for the company site.
-                            We are bringing a marketing expert to advise.<br /><br />
+                            I am looking for a marketing person to advise on any proposed changes to the graphics.<br /><br />
                             Click for a look at my cyber creds.
                         {/*<h5>Touchstone White Paper (right)</h5>
                         My uncle's company in the U.K. - not yet available&nbsp;&nbsp;
