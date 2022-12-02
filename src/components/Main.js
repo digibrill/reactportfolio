@@ -38,7 +38,7 @@ export default function Main() {
                             I wrote the content, targeted at small-to-medium businesses and organizations, and chose the images.
                             I am looking for a marketing person to advise on any proposed changes to the graphics.<br /><br />
                             Click for a look at my cyber creds.
-                        {/*<h5>Touchstone White Paper (right)</h5>
+                        {/*<h5>Touchstone White Paper</h5>
                         My uncle's company in the U.K. - not yet available&nbsp;&nbsp;
                         <img className="wide" src={Touchstone} alt="Touchstone Landing Page" width="300" />*/}
                 </div>
