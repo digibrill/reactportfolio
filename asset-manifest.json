@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactportfolio-challenge20/static/css/main.4412e97d.css",
-    "main.js": "/reactportfolio-challenge20/static/js/main.22b1c941.js",
-    "static/media/the_road_to_cyber_strength.pdf": "/reactportfolio-challenge20/static/media/the_road_to_cyber_strength.b6f45d4b194eb8135f82.pdf",
+    "main.js": "/reactportfolio-challenge20/static/js/main.705585ad.js",
+    "static/media/the_road_to_cyber_strength.pdf": "/reactportfolio-challenge20/static/media/the_road_to_cyber_strength.644a43a97f0f0a21fed5.pdf",
     "static/media/airdnd-home.png": "/reactportfolio-challenge20/static/media/airdnd-home.80df0ae8a04edcd9fbe0.png",
     "static/media/airdnd-addchar.png": "/reactportfolio-challenge20/static/media/airdnd-addchar.dc40771be47bd8e9f759.png",
     "static/media/airdnd-char.png": "/reactportfolio-challenge20/static/media/airdnd-char.96bbc4cc8fa0cc1aad0b.png",
@@ -31,10 +31,10 @@
     "static/media/logobug.png": "/reactportfolio-challenge20/static/media/logobug.e2b9ad7a7204b393328e.png",
     "index.html": "/reactportfolio-challenge20/index.html",
     "main.4412e97d.css.map": "/reactportfolio-challenge20/static/css/main.4412e97d.css.map",
-    "main.22b1c941.js.map": "/reactportfolio-challenge20/static/js/main.22b1c941.js.map"
+    "main.705585ad.js.map": "/reactportfolio-challenge20/static/js/main.705585ad.js.map"
   },
   "entrypoints": [
     "static/css/main.4412e97d.css",
-    "static/js/main.22b1c941.js"
+    "static/js/main.705585ad.js"
   ]
 }
