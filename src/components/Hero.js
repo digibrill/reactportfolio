@@ -15,12 +15,9 @@ export default function Hero() {
                     My dev work is mostly coding and marketing support. I am also a Linux+ certified professional.</p>
                     <img className="intrographics" src={DrupalImg} alt="Drupal!" width="80" />
                     <p>I previously worked 8 years as a web designer for a busy marketing department and 3 years as an interface developer
-                    for the San Diego Union-Tribune. I'm currently writing cybersecurity content (blogs / eBooks) for 
-                    <a href="https://www.TechKahunas.com" className="whiteTextLink">Tech Kahunas</a>. Other pieces available
+                    for the San Diego Union-Tribune. I'm currently writing cybersecurity content (blogs / eBooks) for <a href="https://www.TechKahunas.com" className="whiteTextLink">Tech Kahunas</a>. Other pieces available
                     by request. I live in San Diego with my Boston Terrier Jax.</p>
                     <p>I value candor in the pursuit of excellence. I conquer problems.</p>
-                    
-                        
                 </div>
             </section>
         </section>
