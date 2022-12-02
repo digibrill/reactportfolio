@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactportfolio-challenge20/static/css/main.4412e97d.css",
-    "main.js": "/reactportfolio-challenge20/static/js/main.b0d3cbfa.js",
+    "main.js": "/reactportfolio-challenge20/static/js/main.b5b22856.js",
     "static/media/the_road_to_cyber_strength.pdf": "/reactportfolio-challenge20/static/media/the_road_to_cyber_strength.644a43a97f0f0a21fed5.pdf",
     "static/media/airdnd-home.png": "/reactportfolio-challenge20/static/media/airdnd-home.80df0ae8a04edcd9fbe0.png",
     "static/media/airdnd-addchar.png": "/reactportfolio-challenge20/static/media/airdnd-addchar.dc40771be47bd8e9f759.png",
@@ -17,7 +17,6 @@
     "static/media/WeatherChecker.png": "/reactportfolio-challenge20/static/media/WeatherChecker.789fe9d77df8afccda40.png",
     "static/media/xifin_alt_layout-icc2.png": "/reactportfolio-challenge20/static/media/xifin_alt_layout-icc2.247fb85d2a2973b5bb45.png",
     "static/media/xifingreeting-edit.png": "/reactportfolio-challenge20/static/media/xifingreeting-edit.83c1aaa4148568392a30.png",
-    "static/media/resume.pdf": "/reactportfolio-challenge20/static/media/resume.106dfd268783d715c7f2.pdf",
     "static/media/ReadmeGenerator.png": "/reactportfolio-challenge20/static/media/ReadmeGenerator.e9cfaa6e9dd1f7c7a301.png",
     "static/media/managescreencap.png": "/reactportfolio-challenge20/static/media/managescreencap.a6390f934b2ad6315bf9.png",
     "static/media/loginscreencap.png": "/reactportfolio-challenge20/static/media/loginscreencap.d74981e77f836c18014a.png",
@@ -31,10 +30,10 @@
     "static/media/logobug.png": "/reactportfolio-challenge20/static/media/logobug.e2b9ad7a7204b393328e.png",
     "index.html": "/reactportfolio-challenge20/index.html",
     "main.4412e97d.css.map": "/reactportfolio-challenge20/static/css/main.4412e97d.css.map",
-    "main.b0d3cbfa.js.map": "/reactportfolio-challenge20/static/js/main.b0d3cbfa.js.map"
+    "main.b5b22856.js.map": "/reactportfolio-challenge20/static/js/main.b5b22856.js.map"
   },
   "entrypoints": [
     "static/css/main.4412e97d.css",
-    "static/js/main.b0d3cbfa.js"
+    "static/js/main.b5b22856.js"
   ]
 }
