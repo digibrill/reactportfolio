@@ -11,7 +11,7 @@ export default function Footer() {
                 <li><a href="https://www.instagram.com/digibrill">Instagram</a></li>
             </ul>
         </nav>
-        <p>J.C. Berry -Cybersecurity Analyst, Web Developer, Writer, Recovering Provocateur</p>
+        <p>J.C. Berry - Cybersecurity Analyst, Web Developer, Writer, Recovering Provocateur</p>
     </footer>
     )
 }
