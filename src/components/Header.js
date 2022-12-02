@@ -26,9 +26,9 @@ export default function Header() {
                 <li>
                     <a href="#contactme">Contact Me</a>
                 </li>
-                <li>
+                {/*<li>
                 <a href={resume}>Resume</a>
-                </li>
+                </li>*/}
             </ul>
         </nav>
     </header>

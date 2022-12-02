@@ -213,7 +213,7 @@ export default function Main() {
                         <p>
                             React, Express, Sequelize, MongoDB, Mongoose, Apollo, gql, Node, Drupal, git
                             <br/>
-                            <a href={resume}>Click for Resume</a>
+                            {/*<a href={resume}>Click for Resume</a>*/}
                         </p>
                     </div>
                     <div className="portfoliosection">
