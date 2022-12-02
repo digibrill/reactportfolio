@@ -46,15 +46,6 @@ export default function Main() {
                 </div>
                 <div className="portfoliosection">
                     <div>
-                        <h5>AirDnD Project</h5>
-                        React, MongoDB, Apollo/GraphQL, Express, Node<br />
-                        Home & Character Card <br/><a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndhome} alt="AirDnd Homepage" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndchar} alt="AirDnD Character" className="narrow" width="300" /></a>
-                    </div>
-                    <div><br/>
-                        Add Character & Add Meetup<br />
-                        <a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndaddchar} alt="AirDnD Add Character" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndaddmeetup} alt="AirDnD Add Meetup" className="narrow" width="300" /></a>
-                    </div>
-                    <div>
                         <h5>Weather Checker & Third-Party API Work Day Scheduler</h5>
                         Express, Node, localstorage<br />
                         <a href="https://digibrill.github.io/WeatherChecker-challenge6/"><img src={WeatherChecker} alt="Weather Checker" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://digibrill.github.io/WorkDayScheduler-challenge5/"><img src={WorkdayScheduler} alt="Work Day Scheduler" className="narrow" width="300" /></a>
@@ -74,6 +65,15 @@ export default function Main() {
                         Did a Regex Tutorial in an README.md format text file<br />
                         <a href="https://github.com/digibrill/RegExTutorial-challenge17/blob/main/README.md">https://github.com/digibrill/RegExTutorial-challenge17/blob/main/README.md</a><br/>
                         <br />
+                    </div>
+                    <div>
+                        <h5>AirDnD Project (under development)</h5>
+                        React, MongoDB, Apollo/GraphQL, Express, Node<br />
+                        Home & Character Card <br/><a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndhome} alt="AirDnd Homepage" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndchar} alt="AirDnD Character" className="narrow" width="300" /></a>
+                    </div>
+                    <div><br/>
+                        Add Character & Add Meetup<br />
+                        <a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndaddchar} alt="AirDnD Add Character" className="narrow" width="300" /></a>&nbsp;&nbsp;<a href="https://peaceful-sea-97652.herokuapp.com/"><img src={Airdndaddmeetup} alt="AirDnD Add Meetup" className="narrow" width="300" /></a>
                     </div>
                     <div>
                         <h5>SwiftInv Project</h5>
