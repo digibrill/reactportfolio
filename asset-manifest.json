@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactportfolio-challenge20/static/css/main.4412e97d.css",
-    "main.js": "/reactportfolio-challenge20/static/js/main.b5b22856.js",
-    "static/media/the_road_to_cyber_strength.pdf": "/reactportfolio-challenge20/static/media/the_road_to_cyber_strength.644a43a97f0f0a21fed5.pdf",
+    "main.js": "/reactportfolio-challenge20/static/js/main.73258f71.js",
+    "static/media/the_road_to_cyber_strength.pdf": "/reactportfolio-challenge20/static/media/the_road_to_cyber_strength.6167add7a6337430a55c.pdf",
     "static/media/airdnd-home.png": "/reactportfolio-challenge20/static/media/airdnd-home.80df0ae8a04edcd9fbe0.png",
     "static/media/airdnd-addchar.png": "/reactportfolio-challenge20/static/media/airdnd-addchar.dc40771be47bd8e9f759.png",
     "static/media/airdnd-char.png": "/reactportfolio-challenge20/static/media/airdnd-char.96bbc4cc8fa0cc1aad0b.png",
     "static/media/bkgd.jpg": "/reactportfolio-challenge20/static/media/bkgd.ef0b8b15d72c23bb4577.jpg",
     "static/media/landingpage-touchstone.png": "/reactportfolio-challenge20/static/media/landingpage-touchstone.9f2b0200311d771c0b3f.png",
     "static/media/airdnd-addmeetup.png": "/reactportfolio-challenge20/static/media/airdnd-addmeetup.19a07918fd3e798f5e6d.png",
-    "static/media/cyberstrength-ebook.png": "/reactportfolio-challenge20/static/media/cyberstrength-ebook.f0b9609939f6ab43452f.png",
+    "static/media/ebook-cover.png": "/reactportfolio-challenge20/static/media/ebook-cover.2fda560601490f299bc5.png",
     "static/media/xifingreeting-staticglobe.png": "/reactportfolio-challenge20/static/media/xifingreeting-staticglobe.761a3d190d68d360b10e.png",
     "static/media/EcommerceBackend.png": "/reactportfolio-challenge20/static/media/EcommerceBackend.ef3dc66fe8b6a84a7568.png",
     "static/media/xifin_alt_layout4.png": "/reactportfolio-challenge20/static/media/xifin_alt_layout4.ce38e6dbac454628b1c4.png",
@@ -30,10 +30,10 @@
     "static/media/logobug.png": "/reactportfolio-challenge20/static/media/logobug.e2b9ad7a7204b393328e.png",
     "index.html": "/reactportfolio-challenge20/index.html",
     "main.4412e97d.css.map": "/reactportfolio-challenge20/static/css/main.4412e97d.css.map",
-    "main.b5b22856.js.map": "/reactportfolio-challenge20/static/js/main.b5b22856.js.map"
+    "main.73258f71.js.map": "/reactportfolio-challenge20/static/js/main.73258f71.js.map"
   },
   "entrypoints": [
     "static/css/main.4412e97d.css",
-    "static/js/main.b5b22856.js"
+    "static/js/main.73258f71.js"
   ]
 }
