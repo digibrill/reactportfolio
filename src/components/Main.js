@@ -32,9 +32,9 @@ export default function Main() {
             </div>
             <section className="pagestripes" id="work">
                 <div id="loading_section" className="portfoliosection">
-                    <h5>Cyberstrength eBook</h5>
-                        {/*<a href={eBook} target="_blank">*/}<img src={eBookImg} alt="Cyberstrength eBook" width="300" />{/*</a>*/}<br />
-                        My crowning achievement right now. This brings together my cyber analyst and writing skills.<br/><br />
+                    <h5>Business Owner's Guide to Cybersecurity eBook</h5>
+                        <a href={eBook} target="_blank"><img src={eBookImg} alt="Business Owner's Guide to Cybersecurity eBook" width="300" /></a><br />
+                        This brings together my cyber analyst and writing skills.<br/><br />
                             I wrote the content, targeted at small-to-medium businesses and organizations, and chose the images.
                             I am looking for a marketing person to advise on any proposed changes to the graphics.<br /><br />
                             <br/><br/><br/>
