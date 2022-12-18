@@ -13,7 +13,7 @@ import ReadmeGenerator from "../images/ReadmeGenerator.png"
 import ManageScreen from "../images/managescreencap.png";
 import LoginScreen from "../images/loginscreencap.png";
 import ResultsScreen from "../images/resultsscreencap.png";
-import eBookImg from "../images/cyberstrength-ebook.png";
+import eBookImg from "../images/ebook-cover.png";
 import xifinCard from "../images/xifingreeting-edit.png";
 import contentalternate1 from "../images/xifin_alt_layout4.png";
 import contentalternate2 from "../images/xifin_alt_layout-icc2.png";
