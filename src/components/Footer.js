@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-    <footer>
+    <footer id="contactme">
         <nav>
             <div id="navtitle">Other Connections</div>
             <ul>
