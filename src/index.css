@@ -266,26 +266,11 @@ header {
 .portfoliosection a {
   color: var(--white);
 }
-
-/*.portfoliosection img{
-  clear:both;
-  margin: 0 5px var(--commonpx);
-  width: 100%;
-  max-width: 410px;
-  height:auto;
-}
-*/
 .portfoliosection img.wide {
   width:100%;
   height:auto;
   max-width: 660px;
 }
-/*
-.portfoliosection img.narrow {
-  width:100%;
-  height:auto;
-  max-width: 354px;
-}*/
 
 /* Contact Me stripe */
 
